@@ -1,0 +1,215 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:debug:20170905':
+    - gulp-connect > connect > body-parser > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > compression > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > connect-timeout > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > express-session > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > morgan > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-index > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > tiny-lr > body-parser > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-static > send > debug:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:extend:20180424':
+    - firebase-tools > request > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - universal-analytics > request > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - browserstacktunnel-wrapper > https-proxy-agent > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - cldr-data-downloader > request > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp > liftoff > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - browserstacktunnel-wrapper > https-proxy-agent > agent-base > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > request > extend:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:hoek:20180212':
+    - jpm > sign-addon > request > hawk > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > jsonwebtoken > joi > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > request > hawk > boom > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > request > hawk > sntp > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > jsonwebtoken > joi > topo > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T05:38:25.372Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - karma-sauce-launcher > sauce-connect-launcher > https-proxy-agent:
+        patched: '2021-03-21T05:38:25.372Z'
+    - karma-sauce-launcher > saucelabs > https-proxy-agent:
+        patched: '2021-03-21T05:38:25.372Z'
+    - '@angular/cli > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T05:38:25.372Z'
+    - '@angular/cli > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T05:38:25.372Z'
+    - '@angular/cli > @schematics/update > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T05:38:25.372Z'
+    - '@angular/cli > @schematics/update > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2021-03-21T05:38:25.372Z'
+  SNYK-JS-LODASH-567746:
+    - '@angular/cli > inquirer > lodash':
+        patched: '2021-03-21T05:38:25.372Z'
+    - cldr > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > superstatic > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - karma-sauce-launcher > sauce-connect-launcher > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > archiver > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > google-auto-auth > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > archiver > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > superstatic > nash > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - cldr-data-downloader > request > form-data > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > firefox-profile > archiver > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > superstatic > glob-slasher > toxic > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - karma-sauce-launcher > sauce-connect-launcher > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > archiver > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > archiver > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > archiver > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > archiver > zip-stream > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > archiver > zip-stream > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > firefox-profile > archiver > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > xml2js > xmlbuilder > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > async > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firefox-profile > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > firefox-profile > archiver > zip-stream > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > firefox-profile > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:lodash:20180130':
+    - jpm > fx-runner > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+    - firebase-tools > @google-cloud/functions-emulator > cli-table2 > lodash:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:mime:20170907':
+    - gulp-connect > connect > serve-static > send > mime:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:ms:20170412':
+    - gulp-connect > connect > connect-timeout > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > body-parser > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > compression > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > connect-timeout > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > express-session > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > morgan > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-index > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > tiny-lr > body-parser > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-static > send > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-static > send > debug > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-favicon > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+    - jpm > sign-addon > jsonwebtoken > ms:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:negotiator:20160616':
+    - gulp-connect > connect > compression > accepts > negotiator:
+        patched: '2021-03-21T05:38:25.372Z'
+    - gulp-connect > connect > serve-index > accepts > negotiator:
+        patched: '2021-03-21T05:38:25.372Z'
+  'npm:tunnel-agent:20170305':
+    - jpm > sign-addon > request > tunnel-agent:
+        patched: '2021-03-21T05:38:25.372Z'

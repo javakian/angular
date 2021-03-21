@@ -31,7 +31,9 @@
     "bazel": "bazel",
     "//circleci-win-comment": "See the test-win circleci job for why these are needed. If they are not needed anymore, remove them.",
     "circleci-win-ve": "bazel test --build_tag_filters=-ivy-only --test_tag_filters=-ivy-only,-browser:chromium-local //packages/compiler-cli/...",
-    "circleci-win-ivy": "bazel test --define=compile=aot --build_tag_filters=-no-ivy-aot,-fixme-ivy-aot --test_tag_filters=-no-ivy-aot,-fixme-ivy-aot,-browser:chromium-local //packages/compiler-cli/..."
+    "circleci-win-ivy": "bazel test --define=compile=aot --build_tag_filters=-no-ivy-aot,-fixme-ivy-aot --test_tag_filters=-no-ivy-aot,-fixme-ivy-aot,-browser:chromium-local //packages/compiler-cli/...",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "// 1": "dependencies are used locally and by bazel",
   "dependencies": {
@@ -120,7 +122,8 @@
     "typescript": "~3.6.4",
     "xhr2": "0.1.4",
     "yargs": "13.1.0",
-    "zone.js": "^0.10.2"
+    "zone.js": "^0.10.2",
+    "snyk": "^1.502.0"
   },
   "optionalDependencies": {
     "fsevents": "2.0.1"
@@ -133,21 +136,21 @@
     "@bazel/buildifier": "^0.26.0",
     "@bazel/ibazel": "^0.10.3",
     "@types/minimist": "^1.2.0",
-    "browserstacktunnel-wrapper": "2.0.1",
-    "check-side-effects": "0.0.21",
+    "browserstacktunnel-wrapper": "2.0.3",
+    "check-side-effects": "0.0.23",
     "clang-format": "1.0.41",
-    "cldr": "4.10.0",
-    "cldr-data-downloader": "0.3.2",
+    "cldr": "4.12.0",
+    "cldr-data-downloader": "0.3.4",
     "cldrjs": "0.5.0",
     "conventional-changelog": "^2.0.3",
     "cors": "2.8.4",
     "entities": "1.1.1",
     "firebase-tools": "5.1.1",
-    "firefox-profile": "1.0.3",
+    "firefox-profile": "4.1.0",
     "glob": "7.1.2",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "gulp-clang-format": "1.0.23",
-    "gulp-connect": "5.0.0",
+    "gulp-connect": "5.6.1",
     "gulp-conventional-changelog": "^2.0.3",
     "gulp-filter": "^5.1.0",
     "gulp-git": "^2.7.0",
@@ -158,7 +161,7 @@
     "karma-jasmine": "^1.1.2",
     "karma-sauce-launcher": "^2.0.2",
     "karma-sourcemap-loader": "^0.3.7",
-    "madge": "0.5.0",
+    "madge": "4.0.1",
     "mutation-observer": "^1.0.3",
     "rewire": "2.5.2",
     "sauce-connect": "https://saucelabs.com/downloads/sc-4.5.1-linux.tar.gz",
@@ -169,10 +172,11 @@
     "universal-analytics": "0.4.15",
     "vlq": "0.2.2",
     "vrsource-tslint-rules": "5.1.1",
-    "webpack": "1.12.9"
+    "webpack": "2.2.0"
   },
   "// 4": "Overwrite graceful-fs to a version that does not rely on the 'natives' package. This fixes gulp for >= 10.13, more information: #28213",
   "resolutions": {
     "**/graceful-fs": "4.2.2"
-  }
+  },
+  "snyk": true
 }
