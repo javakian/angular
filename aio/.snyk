@@ -1,0 +1,132 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > axios:
+        patched: '2021-03-21T07:24:02.059Z'
+  'npm:extend:20180424':
+    - rehype > unified > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma > dom-serialize > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+    - remark > unified > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+    - dgeni-packages > rehype > unified > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > google-auto-auth > gcp-metadata > extend:
+        patched: '2021-03-21T07:24:02.059Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2021-03-21T07:24:02.059Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2021-03-21T07:24:02.059Z'
+  SNYK-JS-LODASH-567746:
+    - dgeni-packages > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/helper-hoist-variables > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - dgeni > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - eslint > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - archiver > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - dgeni-packages > dgeni > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - eslint > table > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > superstatic > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > archiver > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > google-auto-auth > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > superstatic > nash > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - light-server > gaze > globule > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2021-03-21T07:24:02.059Z'
+    - archiver > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - archiver > zip-stream > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > archiver > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - lighthouse > inquirer > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > archiver > archiver-utils > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > archiver > zip-stream > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
+  'npm:lodash:20180130':
+    - firebase-tools > @google-cloud/functions-emulator > cli-table2 > lodash:
+        patched: '2021-03-21T07:24:02.059Z'
