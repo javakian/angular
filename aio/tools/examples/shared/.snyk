@@ -1,0 +1,270 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - lite-server > browser-sync > connect > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > serve-index > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > connect > finalhandler > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > socket.io-parser > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-parser > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > serve-static > send > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > engine.io > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-adapter > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > engine.io-client > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > less > request > extend':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > extend:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:hoek:20180212':
+    - '@angular-devkit/build-angular > less > request > hawk > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > less > request > hawk > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > less > request > hawk > sntp > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > less > request > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-21T20:51:26.971Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2021-03-21T20:51:26.971Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular/cli > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular/cli > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular/cli > @schematics/update > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular/cli > @schematics/update > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2021-03-21T20:51:26.971Z'
+  SNYK-JS-LODASH-567746:
+    - '@angular-devkit/build-angular > webpack-merge > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > @angular-devkit/build-webpack > webpack-merge > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - concurrently > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - jasmine-marbles > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > stats-webpack-plugin > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > source-map-loader > async > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-reports > handlebars > async > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular/cli > inquirer > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:lodash:20180130':
+    - lite-server > browser-sync > easy-extender > lodash:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:mime:20170907':
+    - lite-server > browser-sync > serve-static > send > mime:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:moment:20170905':
+    - lite-server > connect-logger > moment:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:ms:20170412':
+    - lite-server > browser-sync > connect > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > serve-index > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > connect > finalhandler > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-parser > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > serve-static > send > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > serve-static > send > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > engine.io > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-adapter > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > engine.io-client > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:qs:20170213':
+    - lite-server > browser-sync > qs:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:stringstream:20180511':
+    - '@angular-devkit/build-angular > less > request > stringstream':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > localtunnel > request > stringstream:
+        patched: '2021-03-21T20:51:26.971Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > sass > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-21T20:51:26.971Z'
+    - '@angular-devkit/build-angular > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2021-03-21T20:51:26.971Z'
+  SNYK-JS-TREEKILL-536781:
+    - concurrently > tree-kill:
+        patched: '2021-03-21T20:51:26.971Z'
+  'npm:ws:20160920':
+    - lite-server > browser-sync > socket.io > engine.io > ws:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io-client > engine.io-client > ws:
+        patched: '2021-03-21T20:51:26.971Z'
+    - lite-server > browser-sync > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2021-03-21T20:51:26.971Z'
