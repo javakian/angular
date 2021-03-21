@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@angular/bazel": "file:../../dist/packages-dist/bazel",
-    "@angular/cli": "file:../../node_modules/@angular/cli",
+    "@angular/bazel": "9.0.0",
+    "@angular/cli": "9.1.13",
     "@bazel/bazel": "file:../../node_modules/@bazel/bazel"
   },
   "scripts": {
