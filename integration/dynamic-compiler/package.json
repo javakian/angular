@@ -15,16 +15,18 @@
     "preprotractor": "tsc -p e2e",
     "protractor": "protractor e2e/protractor.config.js",
     "serve": "lite-server -c e2e/browser.config.json",
-    "test": "npm run build && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first"
+    "test": "npm run build && concurrently \"yarn run serve\" \"yarn run protractor\" --kill-others --success first",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "9.0.0",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
     "concurrently": "3.4.0",
-    "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor",
+    "lite-server": "2.6.0",
+    "protractor": "6.0.0",
     "rollup": "file:../../node_modules/rollup",
     "rollup-plugin-commonjs": "file:../../node_modules/rollup-plugin-commonjs",
     "rollup-plugin-node-resolve": "file:../../node_modules/rollup-plugin-node-resolve",
@@ -41,6 +43,8 @@
     "core-js": "file:../../node_modules/core-js",
     "rxjs": "file:../../node_modules/rxjs",
     "systemjs": "file:../../node_modules/systemjs",
-    "zone.js": "file:../../node_modules/zone.js"
-  }
+    "zone.js": "file:../../node_modules/zone.js",
+    "snyk": "^1.503.0"
+  },
+  "snyk": true
 }
