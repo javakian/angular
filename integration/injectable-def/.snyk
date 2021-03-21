@@ -1,0 +1,88 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - lite-server > browser-sync > connect > debug:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > serve-index > debug:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > connect > finalhandler > debug:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > debug:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > serve-static > send > debug:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:extend:20180424':
+    - protractor > webdriver-manager > request > extend:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > request > extend:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:hoek:20180212':
+    - lite-server > browser-sync > localtunnel > request > hawk > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T20:49:34.977Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2021-03-21T20:49:34.977Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2021-03-21T20:49:34.977Z'
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > lodash:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:lodash:20180130':
+    - lite-server > browser-sync > easy-extender > lodash:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:mime:20170907':
+    - lite-server > browser-sync > serve-static > send > mime:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:ms:20170412':
+    - lite-server > browser-sync > connect > debug > ms:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > serve-index > debug > ms:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > connect > finalhandler > debug > ms:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > serve-static > send > debug > ms:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > serve-static > send > ms:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:qs:20170213':
+    - lite-server > browser-sync > qs:
+        patched: '2021-03-21T20:49:34.977Z'
+  'npm:stringstream:20180511':
+    - protractor > webdriver-manager > request > stringstream:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > localtunnel > request > stringstream:
+        patched: '2021-03-21T20:49:34.977Z'
+    - lite-server > browser-sync > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-21T20:49:34.977Z'
+  SNYK-JS-TREEKILL-536781:
+    - concurrently > tree-kill:
+        patched: '2021-03-21T20:49:34.977Z'

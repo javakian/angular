@@ -14,15 +14,19 @@
     "@types/node": "file:../../node_modules/@types/node",
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
-    "zone.js": "file:../../node_modules/zone.js"
+    "zone.js": "file:../../node_modules/zone.js",
+    "snyk": "^1.503.0"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.41",
     "concurrently": "3.4.0",
-    "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor"
+    "lite-server": "2.6.0",
+    "protractor": "6.0.0"
   },
   "scripts": {
-    "test": "./test.sh"
-  }
+    "test": "./test.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
