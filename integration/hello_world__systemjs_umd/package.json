@@ -8,7 +8,9 @@
     "test": "concurrently \"yarn serve\" \"yarn protractor\" --kill-others --success first",
     "serve": "lite-server -c bs-config.e2e.json",
     "preprotractor": "tsc -p e2e",
-    "protractor": "protractor protractor.config.js"
+    "protractor": "protractor protractor.config.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@angular/common": "file:../../dist/packages-dist/common",
@@ -21,12 +23,14 @@
     "rxjs": "file:../../node_modules/rxjs",
     "systemjs": "0.20.2",
     "typescript": "file:../../node_modules/typescript",
-    "zone.js": "file:../../node_modules/zone.js"
+    "zone.js": "file:../../node_modules/zone.js",
+    "snyk": "^1.502.0"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.41",
     "concurrently": "3.4.0",
-    "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor"
-  }
+    "lite-server": "2.6.0",
+    "protractor": "6.0.0"
+  },
+  "snyk": true
 }
