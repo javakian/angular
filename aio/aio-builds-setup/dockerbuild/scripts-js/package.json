@@ -31,7 +31,7 @@
     "jasmine": "^3.2.0",
     "nock": "^9.6.1",
     "node-fetch": "^2.2.0",
-    "shelljs": "^0.8.2",
+    "shelljs": "^0.8.5",
     "source-map-support": "^0.5.9",
     "tar-stream": "^1.6.1",
     "tslib": "^1.10.0"
