@@ -1,4 +1,4 @@
-FROM circleci/node:10.9.0-browsers
+FROM circleci/node:10.22-stretch-browsers
 
 USER root
 
