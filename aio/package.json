@@ -105,7 +105,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.900.0-next.11",
+    "@angular-devkit/build-angular": "0.1000.0",
     "@angular/cli": "9.0.0-next.11",
     "@angular/compiler-cli": "^9.0.0-next.10",
     "@angular/language-service": "^9.0.0-next.10",
@@ -115,7 +115,7 @@
     "@types/node": "^12.7.9",
     "@types/xregexp": "^3.0.30",
     "@yarnpkg/lockfile": "^1.1.0",
-    "archiver": "^1.3.0",
+    "archiver": "^4.0.2",
     "canonical-path": "1.0.0",
     "chalk": "^2.1.0",
     "chrome-launcher": "^0.10.7",
@@ -129,7 +129,7 @@
     "eslint": "^3.19.0",
     "eslint-plugin-jasmine": "^2.2.0",
     "find-free-port": "^2.0.0",
-    "firebase-tools": "^5.1.1",
+    "firebase-tools": "^9.4.0",
     "fs-extra": "^2.1.2",
     "globby": "^6.1.0",
     "hast-util-is-element": "^1.0.0",
