@@ -20,7 +20,7 @@
     "magic-string": "^0.25.0",
     "semver": "^6.3.0",
     "source-map": "^0.6.1",
-    "yargs": "13.1.0"
+    "yargs": "13.2.4"
   },
   "peerDependencies": {
     "@angular/compiler": "0.0.0-PLACEHOLDER",
