@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@angular/bazel": "file:../../dist/packages-dist/bazel",
-    "@angular/cli": "file:../../node_modules/@angular/cli",
+    "@angular/cli": "9.1.0",
     "@bazel/bazel": "file:../../node_modules/@bazel/bazel"
   },
   "scripts": {
