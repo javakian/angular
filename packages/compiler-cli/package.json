@@ -18,9 +18,9 @@
     "convert-source-map": "^1.5.1",
     "dependency-graph": "^0.7.2",
     "magic-string": "^0.25.0",
-    "semver": "^6.3.0",
+    "semver": "^7.5.2",
     "source-map": "^0.6.1",
-    "yargs": "13.1.0"
+    "yargs": "13.3.0"
   },
   "peerDependencies": {
     "@angular/compiler": "0.0.0-PLACEHOLDER",
