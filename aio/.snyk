@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > axios:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator >
+          @google-cloud/storage > @google-cloud/common > google-auto-auth >
+          gcp-metadata > axios
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > axios:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator >
+          @google-cloud/storage > @google-cloud/common > google-auto-auth >
+          google-auth-library > axios
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > axios:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator >
+          @google-cloud/storage > @google-cloud/common > google-auto-auth >
+          google-auth-library > gtoken > axios
+  'npm:extend:20180424':
+    - firebase-tools > @google-cloud/functions-emulator > @google-cloud/storage > extend:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator >
+          @google-cloud/storage > extend
+  SNYK-JS-LODASH-567746:
+    - firebase-tools > @google-cloud/functions-emulator > googleapis > async > lodash:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator > googleapis > async
+          > lodash
+    - firebase-tools > @google-cloud/functions-emulator > lodash:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-tools > @google-cloud/functions-emulator > lodash
+  'npm:lodash:20180130':
+    - firebase-tools > @google-cloud/functions-emulator > cli-table2 > lodash:
+        patched: '2023-08-31T17:08:43.375Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          firebase-tools > @google-cloud/functions-emulator > cli-table2 >
+          lodash
