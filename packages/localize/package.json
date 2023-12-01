@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
-    "glob": "7.1.2",
+    "glob": "9.0.0",
     "yargs": "13.1.0"
   }
 }
