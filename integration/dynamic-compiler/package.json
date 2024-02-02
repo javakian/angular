@@ -24,10 +24,10 @@
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
     "concurrently": "3.4.0",
     "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "7.0.0",
     "rollup": "file:../../node_modules/rollup",
-    "rollup-plugin-commonjs": "file:../../node_modules/rollup-plugin-commonjs",
-    "rollup-plugin-node-resolve": "file:../../node_modules/rollup-plugin-node-resolve",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
     "typescript": "file:../../node_modules/typescript"
   },
   "dependencies": {
