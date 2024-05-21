@@ -133,7 +133,7 @@
     "@bazel/buildifier": "^0.26.0",
     "@bazel/ibazel": "^0.10.3",
     "@types/minimist": "^1.2.0",
-    "browserstacktunnel-wrapper": "2.0.1",
+    "browserstacktunnel-wrapper": "2.0.4",
     "check-side-effects": "0.0.21",
     "clang-format": "1.0.41",
     "cldr": "4.10.0",
