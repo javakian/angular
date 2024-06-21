@@ -142,7 +142,7 @@
     "conventional-changelog": "^2.0.3",
     "cors": "2.8.4",
     "entities": "1.1.1",
-    "firebase-tools": "5.1.1",
+    "firebase-tools": "13.11.3",
     "firefox-profile": "1.0.3",
     "glob": "7.1.2",
     "gulp": "3.9.1",
