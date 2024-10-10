@@ -21,9 +21,9 @@
   "devDependencies": {
     "@angular/bazel": "file:../../dist/packages-dist/bazel",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "18.2.8",
     "@bazel/bazel": "file:../../node_modules/@bazel/bazel",
-    "@bazel/karma": "0.39.1",
+    "@bazel/karma": "2.3.2",
     "@bazel/protractor": "0.39.1",
     "@bazel/rollup": "0.39.1",
     "@bazel/terser": "0.39.1",
