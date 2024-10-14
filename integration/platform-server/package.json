@@ -11,12 +11,12 @@
     "@angular/animations": "file:../../dist/packages-dist/animations",
     "@angular/common": "file:../../dist/packages-dist/common",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "18.2.8",
     "@angular/core": "file:../../dist/packages-dist/core",
     "@angular/platform-browser": "file:../../dist/packages-dist/platform-browser",
     "@angular/platform-browser-dynamic": "file:../../dist/packages-dist/platform-browser-dynamic",
     "@angular/platform-server": "file:../../dist/packages-dist/platform-server",
-    "express": "^4.14.1",
+    "express": "^4.21.1",
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
     "zone.js": "file:../../node_modules/zone.js"
@@ -30,7 +30,7 @@
     "concurrently": "3.1.0",
     "protractor": "file:../../node_modules/protractor",
     "raw-loader": "^0.5.1",
-    "webpack": "^2.2.1"
+    "webpack": "^5.0.0"
   },
   "scripts": {
     "postinstall": "webdriver-manager update --gecko false --standalone false $CI_CHROMEDRIVER_VERSION_ARG",
