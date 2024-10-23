@@ -33,7 +33,7 @@
     "node-fetch": "^2.2.0",
     "shelljs": "^0.8.2",
     "source-map-support": "^0.5.9",
-    "tar-stream": "^1.6.1",
+    "tar-stream": "^2.1.4",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
