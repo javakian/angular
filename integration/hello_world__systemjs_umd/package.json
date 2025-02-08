@@ -26,7 +26,7 @@
   "devDependencies": {
     "@types/jasmine": "2.5.41",
     "concurrently": "3.4.0",
-    "lite-server": "2.2.2",
+    "lite-server": "2.6.0",
     "protractor": "file:../../node_modules/protractor"
   }
 }
