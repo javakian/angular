@@ -16,7 +16,8 @@
     "reflect-metadata": "0.1.12",
     "rxjs": "file:../../node_modules/rxjs",
     "tslib": "file:../../node_modules/tslib",
-    "zone.js": "0.10.2"
+    "zone.js": "0.10.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular/bazel": "file:../../dist/packages-dist/bazel",
@@ -39,6 +40,9 @@
   },
   "scripts": {
     "test": "bazel build ... --noshow_progress && bazel test ...",
-    "postinstall": "ngcc"
-  }
+    "postinstall": "ngcc",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
