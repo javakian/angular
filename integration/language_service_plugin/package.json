@@ -7,7 +7,7 @@
     "@angular/core": "file:../../dist/packages-dist/core",
     "@angular/language-service": "file:../../dist/packages-dist/language-service",
     "@types/node": "file:../../node_modules/@types/node",
-    "jasmine": "file:../../node_modules/jasmine",
+    "jasmine": "3.6.0",
     "typescript": "file:../../node_modules/typescript"
   },
   "scripts": {
