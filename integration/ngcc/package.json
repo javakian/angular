@@ -17,7 +17,8 @@
     "@types/node": "file:../../node_modules/@types/node",
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
-    "zone.js": "file:../../node_modules/zone.js"
+    "zone.js": "file:../../node_modules/zone.js",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.41",
@@ -26,6 +27,9 @@
     "protractor": "file:../../node_modules/protractor"
   },
   "scripts": {
-    "test": "./test.sh"
-  }
+    "test": "./test.sh",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
