@@ -25,7 +25,7 @@
     "~~test-watch": "nodemon --delay 1 --exec \"yarn ~~test-only\" --watch dist"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.4",
     "delete-empty": "^2.0.0",
     "express": "^4.16.3",
     "jasmine": "^3.2.0",
